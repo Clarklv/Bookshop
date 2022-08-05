@@ -4,3 +4,4 @@ service AdminService @(_requires:'admin'){
     entity Authors as projection on my.Authors;
     entity Orders  as select from my.Orders;
 }
+
